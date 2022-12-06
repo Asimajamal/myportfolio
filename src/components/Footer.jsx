@@ -18,7 +18,7 @@ const Footer = () => {
                     <a href="https://www.linkedin.com/in/asima-jamal-4b09441b8/"rel="noreferrer"  target="_blank" >
                             <i className="fa fa-linkedin fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
                         </a>
-                        <a href="https://wa.me/3416015071" rel="noreferrer"  target="_blank">
+                        <a href="https://wa.me/3130917217" rel="noreferrer"  target="_blank">
                                 <i className="fa fa-whatsapp fa-lg white-text mr-md-5 mr-3 fa-2x"></i>
                             </a>
                         <a href="https://asimajamal789@gmail.com" rel="noreferrer"  target="_blank">
