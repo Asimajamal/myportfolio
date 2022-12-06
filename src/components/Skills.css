@@ -1,0 +1,66 @@
+body{
+    background-color: #212529;
+}
+
+    .card{
+             border-radius: 5px;
+             margin-top: 20px;
+             width: 70%;
+             margin-left: 15%;
+             background-color: #212529;
+             /* border: 1px solid white; */
+             
+    }
+   
+     
+    svg{
+        font-size: 2rem;
+    }
+        .html {
+      
+          fill: #e34c26;
+        } 
+
+        .Css{
+            fill: rgb(96, 96, 245);
+        }
+        .javascript{
+            fill: yellow;
+        }
+        .React{
+            fill: lightskyblue;
+        }
+
+        .Figma{
+            fill:#cb2027;
+        }
+        .Python{
+            fill: rgb(172, 210, 239);
+        }
+        .Ui{
+              fill: #cb207e;
+        }
+        .Bootstrap{
+            fill:purple;
+            
+        }
+        .wordpress{
+            fill:grey;
+            
+        }
+       .conatiner{
+        margin-bottom: 10px;
+        text-align: center;
+       
+       }
+
+       .fade-in-icons {
+        
+       
+        animation: delay 20s;
+      }
+      @keyframes delay {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
+    

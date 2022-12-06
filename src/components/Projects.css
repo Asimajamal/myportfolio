@@ -1,0 +1,49 @@
+
+ 
+  .card-body .btn svg{
+          height: 1.3rem;
+          margin-left: 2px;
+          margin-bottom: 3px;
+          
+  }
+  .card-body .btn{
+    font-size: 0.9rem;
+    box-shadow: 0px 1px 0px 2px rgb(255, 193, 7);
+}
+  
+  .card-1{
+    /* box-shadow: 1px 3px 4px 4px #e9e3da; */
+    /* background-color: rgb(6, 6, 6); */
+    border: 1px solid  rgb(255, 193, 7);
+   
+}
+
+
+.card img{
+    
+    height: 110px;
+    border: 1px solid rgb(255, 193, 7);
+    border-radius: 5px;
+
+   
+}
+
+.d-font{
+ font-size: 13px;
+}
+
+
+.fade-in-img {
+        
+       
+    animation: delay 10s;
+  }
+  @keyframes delay {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+
+
+  

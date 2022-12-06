@@ -1,0 +1,63 @@
+.container{
+    
+  
+    text-align: center;
+    
+}
+
+ .img-style{
+    margin-bottom: 15px;
+    margin-top:76px ;
+    margin-left: 180px;
+   height: 200px;
+   width: 200px;
+   border-radius: 100px;
+   box-shadow: 0px 3px 0px 3px rgb(255, 193, 7);
+}
+
+.my-4 .btn{
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    border: 2px solid black;
+    font-size: 20px;
+    width: 200px;
+    font-weight:lighter;
+    
+}
+h1{
+    font-family: 'Libre Baskerville', serif;}
+
+    .fade-in-text {
+        
+       
+        animation: delay 5s;
+      }
+    
+    .fade-in-text1 {
+        
+       
+        animation: delay 10s;
+      }
+      .fade-in-text3 {
+      
+       
+        animation: delay 20s;
+      }
+      
+      .fade-in-text2 {
+        
+       
+        animation: delay 30s;
+      }
+
+      
+    .fade-in-profile {
+        
+       
+        animation: delay 3s;
+      }
+      @keyframes delay {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+      }
