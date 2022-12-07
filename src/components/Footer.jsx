@@ -27,7 +27,7 @@ const Footer = () => {
         </div>
         <div>
             <p  className="text-warning mt-2" style={{textAlign:"center" }}>
-                &copy; 2022 Copyright
+                  Copyright©️2022
             </p>
         </div>
     </footer>

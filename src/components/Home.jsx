@@ -25,6 +25,8 @@ const Home = (props) => {
               2000,
               "React Js Developer 👩‍💻",
               2000,
+              "Wordpress Developer 🖥️",
+              2000,
               "UI/UX Designer 🙂",
               2000,
             ]}
