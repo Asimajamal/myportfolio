@@ -17,8 +17,8 @@ import {
 const Projects = () => {
   return (
 
-    <div className="container-fluid  wrapper resp">
-    <div className="row">
+    <div className="container-fluid  wrapper ">
+    <div className="row ">
       <ProjectDeatils Ui={portfolio} title="Portfolio Website" icon={<FaGithub/>} link="https://github.com/AsimaJamal789/myportfolio" description="Created using HTML Css React Js & Bootstrap" iconDes="Source Code"/>
       <ProjectDeatils Ui={News} title="News App" icon={<FaGithub/>} link="https://github.com/AsimaJamal789/news-app" description="Created using HTML React Js & Bootstrap" iconDes="Source Code"/>
       <ProjectDeatils Ui={Textutil} title="TextUtils App" icon={<FaGithub/>} link="https://github.com/AsimaJamal789/github/tree/master/src/components" description="Created using HTML React Js & Bootstrap" iconDes="Source Code"/>
