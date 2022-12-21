@@ -25,13 +25,19 @@ body {
 }
 
 @media only screen and (max-width: 600px) {
-  .resp{
+  .resp-profile{
     margin-left: 50px;
   
+  
     
+  }
+  
+  .resp-skill{
+    margin-bottom: 100px;
   }
   .btnn{
     margin-bottom: 100px;
   }
+  
  
 }

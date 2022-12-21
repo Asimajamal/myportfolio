@@ -87,7 +87,7 @@ const SkillSet = () => {
   ];
 
   return (
-    <div className="card  resp ">
+    <div className="card  resp-skill ">
       <div className="card-body ">
         <div className="conatiner fade-in-icons">
           <FaHtml5 className="html mx-2" />

@@ -12,7 +12,7 @@ const Home = (props) => {
   return (
     <div className="container-fluid  bg-dark text-light">
       <div className="container">
-        <img  className="img-style fade-in-profile resp" src={profile} alt="profile" />
+        <img  className="img-style fade-in-profile resp-profile" src={profile} alt="profile" />
 
         <h5 className="text-light my-2 fade-in-text">
           Hey👋 I am <span className="text-warning fade-in-text1 ">Asima Jamal</span>
