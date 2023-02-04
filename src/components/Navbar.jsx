@@ -23,6 +23,18 @@ const Navbar = () => {
         <li className="nav-item mx-3">
           <Link className="nav-link  text-light "  to="/Skills">Skills</Link>
         </li>
+        {/* <li class="nav-item dropdown  mx-3">
+          <Link class="nav-link dropdown-toggle text-light"  id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Projects
+          </Link>
+          <ul class="dropdown-menu bg-dark text-light" aria-labelledby="navbarDropdown">
+            <li><Link class="dropdown-item " to="/Projects">Projects</Link></li>
+            <li><Link class="dropdown-item " to="/ReactProjects">React js</Link></li>
+            
+            <li><Link class="dropdown-item" to="WordpressProjects">WordPress</Link></li>
+            <li><Link class="dropdown-item " to="UIProjects">UI/UX</Link></li>
+          </ul>
+        </li> */}
         <li className="nav-item mx-3">
           <Link className="nav-link  text-light"  to="/Projects">Projects</Link>
         </li>

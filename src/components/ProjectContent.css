@@ -1,0 +1,37 @@
+.react svg{
+    
+    fill: rgb(139, 211, 235);
+    font-size: 6rem;
+    margin-left: 8.5rem;
+}
+
+.Wordpress svg{
+    
+    fill: rgb(133, 146, 152);
+    font-size: 6rem;
+    margin-left: 8.5rem;
+}
+
+.UI svg{
+    
+    fill: rgb(228, 183, 220);
+    font-size: 6rem;
+    margin-left: 8.5rem;
+}
+a:hover svg{
+    fill: rgb(27, 29, 30);
+}
+
+
+/* .content{
+    margin-top: 10rem;
+    margin-left: 15rem;
+} */
+
+.card-pro{
+    width:25rem;
+    background-color: black;
+    box-shadow: 0px 0px 1px 0px rgb(255, 193, 7);
+    margin-left:30rem;
+   
+}

@@ -4,6 +4,9 @@ import Education from './components/Education';
 import Projects from './components/Projects';
 import Home from './components/Home';
 import Footer from './components/Footer';
+import ReactProjects from './components/ReactProjects';
+import WordpressProjects from './components/WordpressProjects';
+import UIProjects from './components/UIProjects';
 import Alert from './components/Alert'
 import { useState } from 'react';
 import './App.css';
@@ -42,6 +45,9 @@ function App() {
         <Route  exact path="/Skills" element={<SkillSet/>}/>
         <Route  exact path="/Projects" element={<Projects/>}/>
         <Route  exact path="/Education" element={<Education/>}/>
+        <Route  exact path="/ReactProjects" element={<ReactProjects/>}/>
+        <Route  exact path="/WordpressProjects" element={<WordpressProjects/>}/>
+        <Route  exact path="/UIProjects" element={<UIProjects/>}/>
         
         </Routes>
        

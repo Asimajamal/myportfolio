@@ -7,8 +7,9 @@ const Home = (props) => {
 
   const Resume=()=>
   {
-    props.displayAlert("Resume Downloaded","success");
+    setTimeout(function(){props.displayAlert("Resume Downloaded","success")},4000);
   }
+ 
   return (
     <div className="container-fluid  bg-dark text-light">
       <div className="container">
@@ -48,7 +49,7 @@ const Home = (props) => {
               Hire Me
             </button>
           </a>
-          <a href="MyCv.pdf" download="Asma.pdf">
+          <a href="MyCv.pdf" download="Asma_Resume.pdf">
             <button type="button" class="btn btn-warning mx-1 btnn " onClick={Resume}>
              Get Resume
             </button>

@@ -44,12 +44,12 @@ function Experience() {
       <h3 className="vertical-timeline-element-title text-dark "style={{fontSize:"20px"}} >
       University of engineering and technology 
       </h3>
-      <p className="text-dark"> Bsc. Gpa 3.33</p>
+      <p className="text-dark"> BE. Grade 3.33</p>
         </VerticalTimelineElement>
 
         <VerticalTimelineElement
           className="vertical-timeline-element--work"  style={{color:"rgb(255, 193, 7)"}}
-          date="2022 - present"
+          date="Aug 2022 - Nov 2022"
           iconStyle={{ background: "#e9d35b", color: "#fff" }}
           icon={<WorkIcon />}
         >
@@ -58,7 +58,7 @@ function Experience() {
           </h3>
           
           <p className="text-dark">
-            Learning Reactjs
+            Reactjs
           </p>
         </VerticalTimelineElement>
       </VerticalTimeline>

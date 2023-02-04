@@ -8,11 +8,12 @@ import {
   FaReact,
   FaFigma,
   FaUikit,
-  FaPython,
+ 
   FaBootstrap,
-  FaWordpress
+  FaWordpress,
+  
 } from "react-icons/fa";
-
+import {  SiMaterialui} from "react-icons/si";
 import SkillBar from "react-skillbars";
 
 const SkillSet = () => {
@@ -52,20 +53,21 @@ const SkillSet = () => {
         title: { background: " #2196de" },
       },
     },
+   
+    {
+      type: "Material Ui",
+      level: 75,
+      color: {
+        bar: "lightskyblue",
+        title: { background: "rgb(65, 164, 240)" },
+      },
+    },
     {
       type: "Figma",
       level: 95,
       color: {
         bar: "#e9464c",
         title: { background: "red" },
-      },
-    },
-    {
-      type: "ML/Python",
-      level: 75,
-      color: {
-        bar: "lightskyblue",
-        title: { background: "rgb(65, 164, 240)" },
       },
     },
     {
@@ -95,8 +97,8 @@ const SkillSet = () => {
           <FaJsSquare className="javascript mx-2" />
           <FaBootstrap className="Bootstrap mx-2" />
           <FaReact className="React mx-2" />
+          <SiMaterialui className="Python mx-2" />
           <FaFigma className="Figma mx-2" />
-          <FaPython className="Python mx-2" />
           <FaUikit className="Ui mx-2" />
           <FaWordpress className="wordpress mx-2"/>
         </div>
